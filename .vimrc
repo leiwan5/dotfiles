@@ -5,8 +5,8 @@ set fileencoding=utf-8
 au BufNewFile,BufRead *.j setf objj
 set autoindent
 map <F4> :MRU <CR>
-map <C-S-o> :FufTaggedFile <CR>
-map <C-S-m> :FufBuffer <CR>
+map <C-S-o> :FufFile **/*<CR>
+map <C-S-m> :FufBuffer *<CR>
 set tags+=ftags
 set guioptions-=m
 set guioptions-=T

@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+
+
 syntax on
 set nu
 set fileencodings=ucs-bom,utf8,cp936
@@ -25,3 +28,5 @@ endif
 set backspace=indent,eol,start
 set whichwrap=b,s,<,>,[,]
 set mouse=a
+
+filetype plugin indent on

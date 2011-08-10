@@ -18,7 +18,11 @@ set guioptions-=T
 "color murphy
 if has('gui_running')
   color ir_black
-  set guifont=DejaVu\ Sans\ Mono\ 13
+  if has('mac')
+    set guifont=Monaco:h13
+  else
+    set guifont=DejaVu\ Sans\ Mono\ 13
+  endif
 else
   set t_Co=256
   color ir_black 

@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vimerl"]
 	path = .vim/bundle/vimerl
 	url = https://github.com/jimenezrick/vimerl.git
+[submodule ".vim/bundle/mustashe.vim"]
+	path = .vim/bundle/mustashe.vim
+	url = git://github.com/juvenn/mustache.vim.git
